@@ -7,7 +7,8 @@
     <title>Results Summary Component</title>
 
     <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/results-card.css" />
+    <link rel="stylesheet" href="styles/result-card.css" />
+    <link rel="stylesheet" href="styles/summary-card.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,63 +18,68 @@
   </head>
   <body>
     <div class="results-card">
-      <div class="your-result">
+      <div class="result-card">
         <h4>Your Result</h4>
-
-        <div class="points-circle">
-          <p class="points">76</p>
-          <p class="points-of">of 100</p>
+        <div class="result-circle">
+          <p class="result-point">76</p>
+          <p class="result-point-of">of 100</p>
         </div>
-
-        <div class="points-assesment">
-          <p class="mark">Great</p>
-          <p class="points-analysis">
+        <div class="result-assessment">
+          <p class="result-mark">Great</p>
+          <p class="result-details">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
       </div>
-      <div class="summary">
-        <h4>Summary</h4>
 
-        <div class="stats-details">
-          <div class="stats stats-reaction">
-            <div class="stats-heading">
-              <img src="images/icon-reaction.svg" alt="" />
+      <div class="summary-card">
+        <h4>Summary</h4>
+        <div class="summary-stats">
+          <div class="reaction-box stat">
+            <div class="reaction stat-name">
+              <img
+                src="images/icon-reaction.svg"
+                alt="lightning icon"
+                width="15px"
+              />
               <p>Reaction</p>
             </div>
-            <p class="stats-points">
-              <span class="stats-points-1">80</span> / 100
-            </p>
+            <div class="stat-points">
+              <span class="stat-point-of">80</span> / 100
+            </div>
           </div>
-          <div class="stats stats-memory">
-            <div class="stats-heading">
-              <img src="images/icon-memory.svg" alt="" />
+          <div class="memory-box stat">
+            <div class="memory stat-name">
+              <img src="images/icon-memory.svg" alt="brain icon" width="15px" />
               <p>Memory</p>
             </div>
-            <p class="stats-points">
-              <span class="stats-points-1">92</span> / 100
-            </p>
+            <div class="stat-points">
+              <span class="stat-point-of">92</span> / 100
+            </div>
           </div>
-          <div class="stats stats-verbal">
-            <div class="stats-heading">
-              <img src="images/icon-verbal.svg" alt="" />
+          <div class="verbal-box stat">
+            <div class="verbal stat-name">
+              <img
+                src="images/icon-verbal.svg"
+                alt="bubble message icon"
+                width="15px"
+              />
               <p>Verbal</p>
             </div>
-            <p class="stats-points">
-              <span class="stats-points-1">61</span> / 100
-            </p>
+            <div class="stat-points">
+              <span class="stat-point-of">61</span> / 100
+            </div>
           </div>
-          <div class="stats stats-visual">
-            <div class="stats-heading">
-              <img src="images/icon-visual.svg" alt="" />
+          <div class="visual-box stat">
+            <div class="visual stat-name">
+              <img src="images/icon-visual.svg" alt="eye icon" width="15px" />
               <p>Visual</p>
             </div>
-            <p class="stats-points">
-              <span class="stats-points-1">72</span> / 100
-            </p>
+            <div class="stat-points">
+              <span class="stat-point-of">72</span> / 100
+            </div>
           </div>
         </div>
-
         <button>Continue</button>
       </div>
     </div>

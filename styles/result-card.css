@@ -1,0 +1,52 @@
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(0deg, #2e2be9 35%, #7857ff 97%);
+}
+
+.result-card h4 {
+  color: #c8c7ff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.result-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(0deg, #2421ca00 0%, #4e21ca 100%);
+  border-radius: 75px;
+}
+
+.result-point {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.result-point-of {
+  color: #c8c7ffb4;
+  font-size: 12px;
+}
+
+.result-assessment {
+  text-align: center;
+}
+
+.result-mark {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.result-details {
+  width: 180px;
+  color: #c8c7ffd2;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
