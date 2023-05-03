@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background: linear-gradient(0deg, #2e2be9 35%, #7857ff 97%);
+  background: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
 }
 
 .result-card h4 {

@@ -32,3 +32,17 @@ body {
   width: 50%;
   border-radius: 20px;
 }
+
+@media all and (max-width: 520px) {
+  .results-card {
+    flex-direction: column;
+    height: 730px;
+    width: 260px;
+  }
+
+  .result-card,
+  .summary-card {
+    height: 50%;
+    width: 100%;
+  }
+}

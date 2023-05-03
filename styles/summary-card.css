@@ -83,3 +83,7 @@
   padding: 12px 75px;
   cursor: pointer;
 }
+
+.summary-card button:hover {
+  background: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
+}
