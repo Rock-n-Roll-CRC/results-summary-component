@@ -16,7 +16,7 @@
 }
 
 .stat,
-.stat-name {
+.stat-description {
   display: flex;
 }
 
@@ -42,7 +42,7 @@
   margin-bottom: 0;
 }
 
-.stat-name img {
+.stat-description img {
   margin-right: 10px;
 }
 
