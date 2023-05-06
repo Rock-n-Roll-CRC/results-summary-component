@@ -35,9 +35,9 @@ Users should be able to:
 ## My process
 
 ### Built with
-- Flexbox (Layout)
-- Media queries (Responsiveness)
-- Importing data from the JSON file (Dynamic HTML)
+- Flexbox
+- Media queries
+- Importing data from the JSON file
 
 ### What I learned
 
