@@ -6,7 +6,7 @@
   background: linear-gradient(0deg, #2e2be9 0%, #7857ff 100%);
 }
 
-.result-card h4 {
+.result-card header p {
   color: #c8c7ff;
   font-size: 17px;
   font-weight: 500;
