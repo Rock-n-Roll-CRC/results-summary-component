@@ -10,8 +10,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -25,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](./assets/images/screenshot.jpg)
 
 ### Links
 
@@ -39,15 +37,8 @@ Users should be able to:
 - Media queries
 - Importing data from the JSON file
 
-### What I learned
-
-While working on this challenge I learnt how to properly use media queries in responsive design, how to use TypeScript to import needed data from the JSON file.
-
-### Continued development
-
-In my future projects I want to be focusing on using dynamic HTML and responsive design techniques.
-
 ## Author
 
 - Frontend Mentor - [Rock_n_Roll_CRC](https://www.frontendmentor.io/profile/Rock-n-Roll-CRC)
 - Twitter - [@Rock_n_Roll_CRC](https://twitter.com/Rock_n_Roll_CRC)
+- Discord - Rock_n_Roll_CRC#2944

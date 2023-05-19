@@ -1,5 +1,5 @@
 // Importing json file with the data for our stats ...
-import statsJson from "./data.json" assert { "type": "json" };
+import statsJson from "./data/data.json" assert { "type": "json" };
 
 // Declaring variables for storing our stat-info elements ...
 const statNames = document.querySelectorAll(".stat-name");

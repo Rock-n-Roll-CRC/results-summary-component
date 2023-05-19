@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Results summary component with 4 stats (reaction, memory, verbal, visual) and the general score."
+    />
     <title>Results Summary Component</title>
 
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/result-card.css" />
-    <link rel="stylesheet" href="styles/summary-card.css" />
+    <link rel="stylesheet" href="./assets/styles/general.css" />
+    <link rel="stylesheet" href="./assets/styles/result-card.css" />
+    <link rel="stylesheet" href="./assets/styles/summary-card.css" />
 
-    <script type="module" src="script.js"></script>
+    <script type="module" src="./assets/scripts/script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,68 +24,94 @@
     />
   </head>
   <body>
-    <div class="results-card">
-      <div class="result-card">
-        <h4>Your Result</h4>
-        <div class="result-circle">
-          <p class="result-point">76</p>
-          <p class="result-point-of">of 100</p>
-        </div>
-        <div class="result-assessment">
-          <p class="result-mark">Great</p>
-          <p class="result-details">
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </div>
-      </div>
+    <header>
+      <h1 class="visually-hidden">Results Summary Component</h1>
+    </header>
 
-      <div class="summary-card">
-        <h4>Summary</h4>
-        <div class="summary-stats">
-          <div class="reaction-box stat">
-            <div class="reaction stat-description">
-              <img src="" alt="lightning icon" width="15" class="stat-icon" />
-              <p class="stat-name"></p>
-            </div>
-            <div class="stat-points">
-              <span class="stat-point-of"></span> / 100
-            </div>
+    <main>
+      <div class="results-card">
+        <div class="result-card">
+          <h4>Your Result</h4>
+          <div class="result-circle">
+            <p class="result-point">76</p>
+            <p class="result-point-of">of 100</p>
           </div>
-          <div class="memory-box stat">
-            <div class="memory stat-description">
-              <img src="" alt="brain icon" width="15" class="stat-icon" />
-              <p class="stat-name"></p>
-            </div>
-            <div class="stat-points">
-              <span class="stat-point-of"></span> / 100
-            </div>
-          </div>
-          <div class="verbal-box stat">
-            <div class="verbal stat-description">
-              <img
-                src=""
-                alt="bubble message icon"
-                width="15"
-                class="stat-icon"
-              />
-              <p class="stat-name"></p>
-            </div>
-            <div class="stat-points">
-              <span class="stat-point-of"></span> / 100
-            </div>
-          </div>
-          <div class="visual-box stat">
-            <div class="visual stat-description">
-              <img src="" alt="eye icon" width="15" class="stat-icon" />
-              <p class="stat-name"></p>
-            </div>
-            <div class="stat-points">
-              <span class="stat-point-of"></span> / 100
-            </div>
+          <div class="result-assessment">
+            <p class="result-mark">Great</p>
+            <p class="result-details">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
           </div>
         </div>
-        <button>Continue</button>
+
+        <div class="summary-card">
+          <h4>Summary</h4>
+          <div class="summary-stats">
+            <div class="reaction-box stat">
+              <div class="reaction stat-description">
+                <img
+                  src=""
+                  alt="lightning icon"
+                  height="17"
+                  width="15"
+                  class="stat-icon"
+                />
+                <p class="stat-name"></p>
+              </div>
+              <div class="stat-points">
+                <span class="stat-point-of"></span> / 100
+              </div>
+            </div>
+            <div class="memory-box stat">
+              <div class="memory stat-description">
+                <img
+                  src=""
+                  alt="brain icon"
+                  height="17"
+                  width="15"
+                  class="stat-icon"
+                />
+                <p class="stat-name"></p>
+              </div>
+              <div class="stat-points">
+                <span class="stat-point-of"></span> / 100
+              </div>
+            </div>
+            <div class="verbal-box stat">
+              <div class="verbal stat-description">
+                <img
+                  src=""
+                  alt="bubble message icon"
+                  height="17"
+                  width="15"
+                  class="stat-icon"
+                />
+                <p class="stat-name"></p>
+              </div>
+              <div class="stat-points">
+                <span class="stat-point-of"></span> / 100
+              </div>
+            </div>
+            <div class="visual-box stat">
+              <div class="visual stat-description">
+                <img
+                  src=""
+                  alt="eye icon"
+                  height="17"
+                  width="15"
+                  class="stat-icon"
+                />
+                <p class="stat-name"></p>
+              </div>
+              <div class="stat-points">
+                <span class="stat-point-of"></span> / 100
+              </div>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
